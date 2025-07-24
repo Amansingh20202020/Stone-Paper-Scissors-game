@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.choices {
+  margin-bottom: 20px;
+}
+
+.choice {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #008cba;
+  color: white;
+  transition: background 0.3s;
+}
+
+.choice:hover {
+  background: #005f6b;
+}
+
+.result p, #winner {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background: #c0392b;
+}
